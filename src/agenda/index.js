@@ -15,8 +15,7 @@ import {AGENDA_CALENDAR_KNOB} from '../testIDs';
 const HEADER_HEIGHT = 104;
 const KNOB_HEIGHT = 24;
 // Fallback when RN version is < 0.44
-const {Text, View, Dimensions, Animated, ViewPropTypes} = ReactNative;
-const viewPropTypes = ViewPropTypes || View.propTypes;
+const {Text, View, Dimensions, Animated} = ReactNative;
 
 /**
  * @description: Agenda component
